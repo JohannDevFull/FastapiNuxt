@@ -1,0 +1,22 @@
+﻿# Entorno virtual de Python
+.venv/
+venv/
+
+# Variables de entorno reales (pueden contener credenciales)
+.env
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caché de pytest
+.pytest_cache/
+
+# Archivos del editor/IDE
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
