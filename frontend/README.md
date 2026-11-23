@@ -121,3 +121,4 @@ frontend/
 - Trazabilidad verificada: evento inicial `PENDING` y segundo evento `PICKED_UP` con su observación.
 - Preflight CORS verificado: `OPTIONS /api/v1/shipments` responde `200` con `Access-Control-Allow-Origin`.
 - Smoke test SSR con el build de producción: `/`, `/shipments`, `/shipments/new` y `/track` respondieron `200`; las pantallas con datos mostraron la guía creada (`MCF-20261121-879048`) y el destinatario actualizado (`Ana Ruiz`).
+
